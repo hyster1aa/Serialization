@@ -23,6 +23,7 @@ namespace Serialization
         public PointForm()
         {
             InitializeComponent();
+            MessageBox.Show("Булдыга");
         }
         [Serializable]
         public class Point3D : Point
